@@ -15,28 +15,28 @@
             <Font size="22.0" />
          </font>
       </Text>
-      <Label layoutX="20.0" layoutY="148.0" prefHeight="45.0" prefWidth="202.0" text="3 x 4+5-(34/2) ">
+      <Label fx:id="valor1" layoutX="20.0" layoutY="146.0" prefHeight="45.0" prefWidth="202.0" text="valor1">
          <font>
-            <Font size="30.0" />
+            <Font size="28.0" />
          </font>
       </Label>
-      <Label layoutX="366.0" layoutY="149.0" text="7 x 2+9-(12/3) ">
+      <Label fx:id="valor2" layoutX="366.0" layoutY="149.0" text="valor2">
          <font>
-            <Font size="30.0" />
+            <Font size="28.0" />
          </font>
       </Label>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="69.0" layoutX="255.0" layoutY="137.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
-      <Button layoutX="125.0" layoutY="292.0" mnemonicParsing="false" text="&gt;">
+      <Rectangle fx:id="caixa" arcHeight="5.0" arcWidth="5.0" disable="true" fill="DODGERBLUE" height="69.0" layoutX="255.0" layoutY="137.0" smooth="false" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+      <Button layoutX="134.0" layoutY="268.0" mnemonicParsing="false" text="&gt;">
          <font>
             <Font size="23.0" />
          </font>
       </Button>
-      <Button layoutX="263.0" layoutY="292.0" mnemonicParsing="false" text="&lt;">
+      <Button layoutX="272.0" layoutY="268.0" mnemonicParsing="false" text="&lt;">
          <font>
             <Font size="23.0" />
          </font>
       </Button>
-      <Button layoutX="403.0" layoutY="293.0" mnemonicParsing="false" text="=">
+      <Button layoutX="412.0" layoutY="269.0" mnemonicParsing="false" text="=">
          <font>
             <Font size="22.0" />
          </font>
@@ -51,5 +51,11 @@
             <Font size="15.0" />
          </font>
       </Button>
+      <Button layoutX="260.0" layoutY="348.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="69.0" text="Confirmar" />
+      <Label fx:id="opcao" layoutX="276.0" layoutY="143.0" text="">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
